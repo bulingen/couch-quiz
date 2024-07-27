@@ -24,6 +24,7 @@ const config: ExpoConfig = {
   },
   web: {
     favicon: "./assets/favicon.png",
+    bundler: "metro",
   },
 };
 
