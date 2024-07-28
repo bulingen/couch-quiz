@@ -26,6 +26,8 @@ const config: ExpoConfig = {
     favicon: "./assets/favicon.png",
     bundler: "metro",
   },
+  plugins: ["expo-router"],
+  scheme: "couch-quiz",
 };
 
 export default config;

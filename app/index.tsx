@@ -1,17 +1,20 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
-import "./global.css";
+import { StyleSheet, Text, View, Pressable } from "react-native";
+import "../global.css";
 
-export default function App() {
+const Start = () => {
   return (
     <View style={styles.container}>
       <Text className="bg-slate-400">
         Open up App.js to start working on your app!
       </Text>
+      <Pressable onPress={() => alert("You pressed a button.")}>
+        <Text>Korven</Text>
+      </Pressable>
       <StatusBar style="auto" />
     </View>
   );
-}
+};
 
 const styles = StyleSheet.create({
   container: {
@@ -21,3 +24,5 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
 });
+
+export default Start;
