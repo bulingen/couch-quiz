@@ -1,5 +1,6 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View, Pressable } from "react-native";
+import { Link } from "expo-router";
 import "../global.css";
 
 const Start = () => {
@@ -11,6 +12,7 @@ const Start = () => {
       <Pressable onPress={() => alert("You pressed a button.")}>
         <Text>Korven</Text>
       </Pressable>
+      <Link href="/questions">Ge mig frågor</Link>
       <StatusBar style="auto" />
     </View>
   );
