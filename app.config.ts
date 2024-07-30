@@ -28,6 +28,12 @@ const config: ExpoConfig = {
   },
   plugins: ["expo-router"],
   scheme: "couch-quiz",
+  extra: {
+    eas: {
+      projectId: "8ea21185-cb91-4116-aea3-c2cc317f8fa4",
+    },
+  },
+  owner: "bulingen",
 };
 
 export default config;
