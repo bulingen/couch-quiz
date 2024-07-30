@@ -7,7 +7,7 @@ type Category =
   | "Sport & fritid";
 type DegreeOfDifficulty = "Lätt" | "Medel" | "Svår";
 
-type Question = {
+export type Question = {
   question: string;
   answer: string;
   incorrectOptions: [string, string, string];

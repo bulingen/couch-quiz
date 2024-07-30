@@ -1,24 +1,21 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View, Pressable } from "react-native";
+import { Text, View } from "react-native";
 import { Link } from "expo-router";
 import "../global.css";
 
 const Start = () => {
   return (
-    <View style={styles.container}>
-      <Text className="bg-slate-400">
-        Open up App.js to start working on your app!
-      </Text>
-      <Pressable onPress={() => alert("You pressed a button.")}>
-        <Text>Korven</Text>
-      </Pressable>
-      <Link href="/questions">Ge mig frågor</Link>
+    <View className="p-2 flex flex-col items-center">
+      <Text className="mb-4 mt-8">Välkommen faktis</Text>
+      <Link href="/questions" className="bg-green-800 text-neutral-50 p-4">
+        Ge mig frågor
+      </Link>
       <StatusBar style="auto" />
     </View>
   );
 };
 
-const styles = StyleSheet.create({
+export default Start;
   container: {
     flex: 1,
     backgroundColor: "#fff",
