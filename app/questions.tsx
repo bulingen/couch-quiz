@@ -18,7 +18,9 @@ const QuestionBox = ({
 }) => {
   return (
     <View className="w-full flex flex-col justify-center">
-      <Text className="mb-2 flex justify-center">{question.question}</Text>
+      <Text className="mb-2 flex flex-col items-center text-center justify-center">
+        {question.question}
+      </Text>
       {showAnswer ? (
         <View className="flex flex-col items-center">
           <Text className="flex justify-center">
