@@ -173,4 +173,10 @@ const Questions = () => {
   );
 };
 
+// TODO:
+// lägg knapparna bredvid varandra CHECK
+// dom ska vara disabled i rätt lägen CHECK
+// ifall man når slutet kanske behöver en reset-knapp. slumpa och börja om
+//    kanske ska stå "nytt spel" CHECK
+
 export default Questions;

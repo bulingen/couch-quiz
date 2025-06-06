@@ -16,12 +16,22 @@ const Start = () => {
 };
 
 export default Start;
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
 
-export default Start;
+// gör router-grejen CHECK
+// sen en startsida. CHECK
+// klicka "ge mig frågor" CHECK
+// gå till en sida CHECK
+// generera frågor CHECK
+
+// KATEGORIER
+// underhållning
+// vetenskap
+// kultur
+// geografi
+// historia
+// sport & fritid
+
+// slumpa frågor
+// spara vilka frågor som tagits. ta inte nån igen, förrän alla har körts
+// vill kunna ta vanliga frågor och barnfrågor
+// kanske använda fontawesome för ikoner. kolla andra projektet för det
